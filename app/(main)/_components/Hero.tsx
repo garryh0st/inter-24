@@ -14,14 +14,14 @@ const Hero = () => {
         <div className="text-lg absolute inset-0 -z-10 h-full w-full bg-[#1e1e1e] bg-[linear-gradient(to_right,#b83eff20_2px,transparent_2px),linear-gradient(to_bottom,#b83eff20_2px,transparent_2px)] bg-[size:30px_30px]"></div>
         <div
           className={cn(
-            "leading-[7.8vh]  w-full text-9xl lg:text-[300px] tracking-wide translate-y-4 px-4 text-[#b83eff] eger absolute"
+            "leading-[7.8vh] hidden md:block  w-full text-9xl lg:text-[300px] tracking-wide translate-y-4 px-4 text-[#b83eff] eger absolute"
           )}
         >
           WARTEX #10.0
         </div>{" "}
         <div
           className={cn(
-            "flex w-[900px] text-[#ff92fb]  text-2xl mx-4 mb-4  justify-between",
+            "w-[900px] hidden md:flex text-[#ff92fb]  text-2xl mx-4 mb-4  justify-between",
             Mont.className
           )}
         >
