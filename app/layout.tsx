@@ -17,10 +17,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" suppressHydrationWarning>
-      <head>
-        <link rel="preload" href="@/public/eger" />
-      </head>
+    <html lang="en">
+  
       <body className={cn("bg-[#1e1e1e]", inter.className)}>
         <div>
           <Navbar />
