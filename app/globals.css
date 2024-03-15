@@ -74,3 +74,49 @@
     @apply bg-background text-foreground;
   }
 }
+
+body,
+html {
+  height: 100%;
+}
+
+/* Fonts Declaration */
+
+@font-face {
+  font-family: "Eger";
+  src: url("/public/eger-regular.otf");
+}
+
+.eger {
+  font-family: "Eger";
+}
+
+@font-face {
+  font-family: "Sf";
+  src: url("/public/SFUIText-Bold.otf");
+}
+
+.sf{
+  font-family: "Sf";
+}
+/* Scroll bar */
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #ff9100;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #b83eff;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
