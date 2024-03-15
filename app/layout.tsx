@@ -18,6 +18,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
+      <head>
+        <link rel="preload" href="@/public/eger" />
+      </head>
       <body className={cn("bg-[#1e1e1e]", inter.className)}>
         <div>
           <Navbar />

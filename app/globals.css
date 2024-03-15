@@ -84,7 +84,7 @@ html {
 
 @font-face {
   font-family: "Eger";
-  src: url("/public/eger-regular.otf");
+  src: url("/public/eger-regular.woff2");
 }
 
 .eger {
@@ -96,7 +96,7 @@ html {
   src: url("/public/SFUIText-Bold.otf");
 }
 
-.sf{
+.sf {
   font-family: "Sf";
 }
 /* Scroll bar */
