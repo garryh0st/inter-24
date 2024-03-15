@@ -19,7 +19,8 @@ const config = {
     },
     extend: {
       fontFamily: {
-        customFont: ['"Eger"', "sans-serif"],
+        eger: ['Eger', 'sans-serif'],
+        sf: ['Sf', 'sans-serif']
         
       },
       colors: {

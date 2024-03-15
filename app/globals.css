@@ -80,26 +80,19 @@ html {
   height: 100%;
 }
 
-/* Fonts Declaration */
 
 @font-face {
   font-family: "Eger";
-  src: url("/public/eger-regular.woff2");
+  src: url("../public/fonts/eger.otf"); 
 }
 
-.eger {
-  font-family: "Eger";
-}
 
 @font-face {
   font-family: "Sf";
-  src: url("/public/SFUIText-Bold.otf");
+  src: url("../public/fonts/sf.otf"); 
 }
 
-.sf {
-  font-family: "Sf";
-}
-/* Scroll bar */
+
 
 /* width */
 ::-webkit-scrollbar {
